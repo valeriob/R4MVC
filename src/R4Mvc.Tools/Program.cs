@@ -18,6 +18,9 @@ namespace R4Mvc.Tools
     {
         static async Task Main(string[] args)
         {
+            //args[2] = @"c:\Dev\OnitGit\Bu-Mobile\MarketingSportivo-Web\src\MarketingSportivo.WebAdmin\MarketingSportivo.WebAdmin.csproj";
+            //args[2] = @"C:\Dev\GitHub\R4MVC\samples\AspNetFeatureFolders\AspNetFeatureFolders.csproj";
+
             Console.WriteLine($"  R4Mvc Generator Tool v{GetVersion()}");
             Console.WriteLine();
 

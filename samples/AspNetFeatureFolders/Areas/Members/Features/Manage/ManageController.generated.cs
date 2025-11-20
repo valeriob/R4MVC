@@ -83,6 +83,7 @@ namespace AspNetFeatureFolders.Areas.Members.Features.Manage
 
         [GeneratedCode("R4Mvc", "1.0"), DebuggerNonUserCode]
         public ManageController Actions => MVC.Members.Manage;
+
         [GeneratedCode("R4Mvc", "1.0")]
         public readonly string Area = "Members";
         [GeneratedCode("R4Mvc", "1.0")]
@@ -93,6 +94,7 @@ namespace AspNetFeatureFolders.Areas.Members.Features.Manage
         static readonly ActionNamesClass s_ActionNames = new ActionNamesClass();
         [GeneratedCode("R4Mvc", "1.0"), DebuggerNonUserCode]
         public ActionNamesClass ActionNames => s_ActionNames;
+
         [GeneratedCode("R4Mvc", "1.0"), DebuggerNonUserCode]
         public class ActionNamesClass
         {
@@ -110,6 +112,7 @@ namespace AspNetFeatureFolders.Areas.Members.Features.Manage
         {
             static readonly _ViewNamesClass s_ViewNames = new _ViewNamesClass();
             public _ViewNamesClass ViewNames => s_ViewNames;
+
             public class _ViewNamesClass
             {
                 public readonly string Index = "Index";
@@ -127,7 +130,7 @@ namespace AspNetFeatureFolders.Areas.Members.Features.Manage
     [GeneratedCode("R4Mvc", "1.0"), DebuggerNonUserCode]
     public partial class R4MVC_ManageController : AspNetFeatureFolders.Areas.Members.Features.Manage.ManageController
     {
-        public R4MVC_ManageController(): base(Dummy.Instance)
+        public R4MVC_ManageController() : base(Dummy.Instance)
         {
         }
 
